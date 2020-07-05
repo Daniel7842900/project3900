@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Timesheet
+	</title>
+</head>
+<body>
+	<form action= "timesheetInsert.php" method ="post">
+		<table>
+			<tr>
+				<th> Category Code</th>
+				<th> Task Code</th>
+				<th> Time Charged</th>
+				<th> ETC</th>
+			</tr>
+			<tr>
+				<td>
+					Category Code: <input type="number" name = "cCode"> <br/>
+				</td>
+				<td>
+					Task Code: <input type = "number" name = "tCode"><br/>
+				</td>
+				<td>
+					Time Charged: <input type = "number" name = "Actuals"><br/>
+				</td>
+				<td>
+					ETC: <input type = "number" name = "etc"><br/>
+				</td>
+					<input type = "submit" value = "save">
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
